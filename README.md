@@ -169,7 +169,7 @@ WHERE EXTRACT(MONTH FROM o.order_date) BETWEEN 1 AND 6;
 ├── scripts/
 │   └── postgres_superstore_analysis.sql   # Complete SQL queries
 └── data_outputs/
-    └── annual_sales.csv          # Exported CSV query results
+    └── superstore_dataset.csv          # Exported CSV query results
 ```
 
 ---
