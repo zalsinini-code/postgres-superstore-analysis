@@ -39,7 +39,8 @@ FROM public.orders
 GROUP BY 1
 ORDER BY year ASC;
 ```
-<img width="1555" height="357" alt="Screenshot 2026-07-29 222103" src="https://github.com/user-attachments/assets/0e8716dd-670d-43cf-a7e6-269f6c254da5" />
+<img width="1552" height="392" alt="Screenshot 2026-07-29 223419" src="https://github.com/user-attachments/assets/9afbf1d3-e034-49bf-926a-de8595d595f2" />
+
 
 
 
@@ -125,7 +126,7 @@ SELECT order_id, order_date
 FROM public.orders
 WHERE EXTRACT(MONTH FROM order_date) = 3 AND EXTRACT(YEAR FROM order_date) = 2023;
 ```
-<img width="1552" height="386" alt="Screenshot 2026-07-29 222340" src="https://github.com/user-attachments/assets/5d59a3b2-2eed-4b9c-b277-2797423a013c" />
+<img width="1552" height="395" alt="Screenshot 2026-07-29 223403" src="https://github.com/user-attachments/assets/13d931c8-b43f-430b-a455-c41580a6b601" />
 
 
 
