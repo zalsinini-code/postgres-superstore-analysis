@@ -165,10 +165,10 @@ WHERE EXTRACT(MONTH FROM o.order_date) BETWEEN 1 AND 6;
 ## 📂 Repository Structure
 
 ```text
+├── data_outputs/
+│   └── superstore_dataset.zip          # Exported CSV query results
 ├── scripts/
-│   └── postgres_superstore_analysis.sql   # Complete SQL queries
-└── data_outputs/
-│    └── superstore_dataset.zip          # Exported CSV query results
+│   └── postgres_analysis_queries.sql   # Complete SQL queries
 └── README.md
 ```
 
